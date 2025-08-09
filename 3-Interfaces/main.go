@@ -40,4 +40,5 @@ func main() {
 
 	Ativacao(&Lucas)
 	Desativacao(&Lucas)
+	
 }
