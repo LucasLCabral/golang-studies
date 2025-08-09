@@ -10,3 +10,6 @@ go tool cover -html=cover.out
 # Bench
 go test -bench=.
 go test -bench=. -run=^#
+
+# Fuzz
+go test -fuzz=. -run=^#
